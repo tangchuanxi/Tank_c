@@ -13,9 +13,18 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    wanwu.cpp \
+    mapcell.cpp \
+    gamemap.cpp
 
 HEADERS  += mainwindow.h \
-    wanwu.h
+    wanwu.h \
+    main.h \
+    mapcell.h \
+    gamemap.h
 
 FORMS    += mainwindow.ui
+
+RESOURCES += \
+    images.qrc
