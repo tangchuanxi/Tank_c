@@ -1,0 +1,21 @@
+#ifndef WANWU_H
+#define WANWU_H
+
+#include <QPainter>
+#include <QPoint>
+#include <QRect>
+
+enum  Dir 
+{
+    UP,
+    DOWN,
+    LEFT,
+    RIGTH
+};
+
+class Wanwu{
+protected:
+    
+};
+
+#endif // WANWU_H
